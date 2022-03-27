@@ -20,6 +20,7 @@ int main()
         for (int j = 0; j < 2; j++)
             scanf("%d", &B[i][j]);
     }
+    //  strassens algorithm
     P = (A[0][0] + A[1][1]) * (B[0][0] + B[1][1]);
     Q = (A[1][0] + A[1][1]) * B[0][0];
     R = A[0][0] * (B[0][1] - B[1][1]);
